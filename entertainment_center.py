@@ -15,16 +15,11 @@ avengers = media.Movie("Avengers: Infinity War",
                        "Story of Marvel superheroes uniting to defend their universe against Thanos",
                        "https://vignette.wikia.nocookie.net/movie-ideas2293/images/4/45/Avengers-_Infinity_War.jpg/revision/latest?cb=20170106112109",
                        "https://www.youtube.com/watch?v=QwievZ1Tx-8")
-                    
+
 wanted = media.Movie("Wanted",
                      "Story of a man who joins an elite group of vigilantes in order to escape",
                      "https://vignette.wikia.nocookie.net/scratchpad/images/3/3a/2008_-_Wanted_Movie_Poster.jpg/revision/latest?cb=20140306191008",
                      "https://www.youtube.com/watch?v=edpEspHOeVU")
-                    
 
 movies = [limitless, venom, avengers, wanted]
 fresh_tomatoes.open_movies_page(movies)
-
-
-
-                    
